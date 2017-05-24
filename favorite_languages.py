@@ -19,11 +19,3 @@ for name in favorite_languages.keys():
         print(" Hi " + name.title() +
             ", I see your faorite language is " +
             favorite_languages[name].title() + "!")
-
-
-a.each_with_index.map do |x,i|
-    if (x+i) == 0
-        0
-    else (x+i)/2
-    end
-end
